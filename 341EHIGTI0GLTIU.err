@@ -2741,3 +2741,225 @@ Version: '5.7.19'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2017-08-28T03:31:13.095995Z 64 [ERROR] InnoDB: Fetch of persistent statistics requested for table `php`.`task` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
 2017-08-28T06:06:08.179643Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
 2017-08-28T06:06:08.182644Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `php`.`task` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2017-08-28T07:49:32.052485Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10244ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T07:50:49.729927Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6971ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T07:52:37.732105Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9994ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T07:53:23.715735Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10980ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T08:01:57.713134Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6932ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T08:41:11.721776Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6625ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:14:35.723398Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9348ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:16:03.746433Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6982ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:16:33.725147Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6948ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:16:43.708718Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8983ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:16:51.733177Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7025ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:18:11.742753Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8974ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:18:27.738668Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9983ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:23:29.717941Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6665ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:23:43.729742Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9011ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:23:59.801661Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 11065ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:24:15.712571Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6983ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:24:37.720830Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8003ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:24:47.637397Z 52 [Note] Aborted connection 52 to db: 'php' user: 'root' host: '' (Got an error reading communication packets)
+2017-08-28T09:27:21.724026Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7506ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-28T09:30:32.673219Z 0 [Note] MySQL: Normal shutdown
+
+2017-08-28T09:30:33.000820Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2017-08-28T09:30:33.000820Z 0 [Note] Shutting down slave threads
+2017-08-28T09:30:33.078820Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2017-08-28T09:30:34.014821Z 0 [Note] Binlog end
+2017-08-28T09:30:35.746424Z 0 [Note] Shutting down plugin 'ngram'
+2017-08-28T09:30:35.808825Z 0 [Note] Shutting down plugin 'partition'
+2017-08-28T09:30:35.808825Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2017-08-28T09:30:35.855625Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2017-08-28T09:30:35.855625Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-08-28T09:30:36.136425Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-08-28T09:30:36.136425Z 0 [Note] Shutting down plugin 'MyISAM'
+2017-08-28T09:30:36.276825Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2017-08-28T09:30:36.308025Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-08-28T09:30:36.308025Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-08-28T09:30:36.308025Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-08-28T09:30:36.308025Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-08-28T09:30:36.308025Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-08-28T09:30:36.308025Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-08-28T09:30:36.308025Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-08-28T09:30:36.308025Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-08-28T09:30:36.308025Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-08-28T09:30:36.308025Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-08-28T09:30:36.308025Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-08-28T09:30:36.323625Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-08-28T09:30:36.323625Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-08-28T09:30:36.323625Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-08-28T09:30:36.323625Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-08-28T09:30:36.323625Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-08-28T09:30:36.323625Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2017-08-28T09:30:36.323625Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-08-28T09:30:36.323625Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-08-28T09:30:36.323625Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-08-28T09:30:36.323625Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-08-28T09:30:36.323625Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-08-28T09:30:36.323625Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-08-28T09:30:36.339225Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-08-28T09:30:36.339225Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-08-28T09:30:36.339225Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2017-08-28T09:30:36.339225Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-08-28T09:30:36.339225Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-08-28T09:30:36.339225Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2017-08-28T09:30:36.339225Z 0 [Note] Shutting down plugin 'InnoDB'
+2017-08-28T09:30:36.698026Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2017-08-28T09:30:36.776026Z 0 [Note] InnoDB: Starting shutdown...
+2017-08-28T09:30:36.978827Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\Mysql\mysql-5.7.19-winx64\data\ib_buffer_pool
+2017-08-28T09:30:37.119227Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 170828 17:30:37
+2017-08-28T09:30:42.002035Z 0 [Note] InnoDB: Shutdown completed; log sequence number 1410157
+2017-08-28T09:30:42.111236Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2017-08-28T09:30:42.111236Z 0 [Note] Shutting down plugin 'MEMORY'
+2017-08-28T09:30:42.111236Z 0 [Note] Shutting down plugin 'CSV'
+2017-08-28T09:30:42.111236Z 0 [Note] Shutting down plugin 'sha256_password'
+2017-08-28T09:30:42.111236Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2017-08-28T09:30:42.220436Z 0 [Note] Shutting down plugin 'binlog'
+2017-08-28T09:30:42.438836Z 0 [Note] MySQL: Shutdown complete
+
+2017-08-29T01:11:14.251232Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-08-29T01:11:14.266832Z 0 [Note] MySQL (mysqld 5.7.19) starting as process 1908 ...
+2017-08-29T01:11:14.578833Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-08-29T01:11:14.594433Z 0 [Note] InnoDB: Uses event mutexes
+2017-08-29T01:11:14.594433Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-08-29T01:11:14.594433Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-08-29T01:11:14.594433Z 0 [Note] InnoDB: Number of pools: 1
+2017-08-29T01:11:14.625633Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2017-08-29T01:11:14.656833Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2017-08-29T01:11:14.672433Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-08-29T01:11:14.766033Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-08-29T01:11:15.046834Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-08-29T01:11:15.046834Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-08-29T01:11:15.374434Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2017-08-29T01:11:15.374434Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-08-29T01:11:15.390034Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-08-29T01:11:15.390034Z 0 [Note] InnoDB: Waiting for purge to start
+2017-08-29T01:11:15.468035Z 0 [Note] InnoDB: 5.7.19 started; log sequence number 1410157
+2017-08-29T01:11:15.468035Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\Mysql\mysql-5.7.19-winx64\data\ib_buffer_pool
+2017-08-29T01:11:15.514835Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-08-29T01:11:15.826835Z 0 [Note] InnoDB: Buffer pool(s) load completed at 170829  9:11:15
+2017-08-29T01:11:15.842435Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2017-08-29T01:11:15.967235Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-08-29T01:11:15.967235Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-08-29T01:11:15.967235Z 0 [Note] IPv6 is available.
+2017-08-29T01:11:15.967235Z 0 [Note]   - '::' resolves to '::';
+2017-08-29T01:11:15.967235Z 0 [Note] Server socket created on IP: '::'.
+2017-08-29T01:11:15.982836Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2017-08-29T01:11:16.029636Z 0 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2017-08-29T01:11:16.029636Z 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2017-08-29T01:11:16.154436Z 0 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+2017-08-29T01:11:16.170036Z 0 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+2017-08-29T01:11:16.170036Z 0 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+2017-08-29T01:11:16.170036Z 0 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+2017-08-29T01:11:16.170036Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_host_by_event_name' has the wrong structure
+2017-08-29T01:11:16.170036Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+2017-08-29T01:11:16.185636Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+2017-08-29T01:11:16.185636Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_user_by_event_name' has the wrong structure
+2017-08-29T01:11:16.201236Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_account_by_event_name' has the wrong structure
+2017-08-29T01:11:16.201236Z 0 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+2017-08-29T01:11:16.201236Z 0 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+2017-08-29T01:11:16.201236Z 0 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+2017-08-29T01:11:16.201236Z 0 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+2017-08-29T01:11:16.216836Z 0 [ERROR] Native table 'performance_schema'.'host_cache' has the wrong structure
+2017-08-29T01:11:16.216836Z 0 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+2017-08-29T01:11:16.216836Z 0 [ERROR] Native table 'performance_schema'.'objects_summary_global_by_type' has the wrong structure
+2017-08-29T01:11:16.216836Z 0 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+2017-08-29T01:11:16.216836Z 0 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+2017-08-29T01:11:16.216836Z 0 [ERROR] Native table 'performance_schema'.'setup_actors' has the wrong structure
+2017-08-29T01:11:16.216836Z 0 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+2017-08-29T01:11:16.232436Z 0 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+2017-08-29T01:11:16.232436Z 0 [ERROR] Native table 'performance_schema'.'setup_objects' has the wrong structure
+2017-08-29T01:11:16.232436Z 0 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+2017-08-29T01:11:16.232436Z 0 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_index_usage' has the wrong structure
+2017-08-29T01:11:16.232436Z 0 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_table' has the wrong structure
+2017-08-29T01:11:16.232436Z 0 [ERROR] Native table 'performance_schema'.'table_lock_waits_summary_by_table' has the wrong structure
+2017-08-29T01:11:16.232436Z 0 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+2017-08-29T01:11:16.232436Z 0 [ERROR] Native table 'performance_schema'.'events_stages_current' has the wrong structure
+2017-08-29T01:11:16.248036Z 0 [ERROR] Native table 'performance_schema'.'events_stages_history' has the wrong structure
+2017-08-29T01:11:16.248036Z 0 [ERROR] Native table 'performance_schema'.'events_stages_history_long' has the wrong structure
+2017-08-29T01:11:16.248036Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_thread_by_event_name' has the wrong structure
+2017-08-29T01:11:16.248036Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_account_by_event_name' has the wrong structure
+2017-08-29T01:11:16.248036Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_user_by_event_name' has the wrong structure
+2017-08-29T01:11:16.263636Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_host_by_event_name' has the wrong structure
+2017-08-29T01:11:16.263636Z 0 [ERROR] Native table 'performance_schema'.'events_stages_summary_global_by_event_name' has the wrong structure
+2017-08-29T01:11:16.263636Z 0 [ERROR] Native table 'performance_schema'.'events_statements_current' has the wrong structure
+2017-08-29T01:11:16.263636Z 0 [ERROR] Native table 'performance_schema'.'events_statements_history' has the wrong structure
+2017-08-29T01:11:16.263636Z 0 [ERROR] Native table 'performance_schema'.'events_statements_history_long' has the wrong structure
+2017-08-29T01:11:16.279236Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_thread_by_event_name' has the wrong structure
+2017-08-29T01:11:16.279236Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_account_by_event_name' has the wrong structure
+2017-08-29T01:11:16.279236Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_user_by_event_name' has the wrong structure
+2017-08-29T01:11:16.279236Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_host_by_event_name' has the wrong structure
+2017-08-29T01:11:16.279236Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_global_by_event_name' has the wrong structure
+2017-08-29T01:11:16.294836Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_digest' has the wrong structure
+2017-08-29T01:11:16.294836Z 0 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_program' has the wrong structure
+2017-08-29T01:11:16.294836Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_current' has the wrong structure
+2017-08-29T01:11:16.294836Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history' has the wrong structure
+2017-08-29T01:11:16.310436Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_history_long' has the wrong structure
+2017-08-29T01:11:16.310436Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_thread_by_event_name' has the wrong structure
+2017-08-29T01:11:16.310436Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_account_by_event_name' has the wrong structure
+2017-08-29T01:11:16.310436Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_user_by_event_name' has the wrong structure
+2017-08-29T01:11:16.310436Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_by_host_by_event_name' has the wrong structure
+2017-08-29T01:11:16.326036Z 0 [ERROR] Native table 'performance_schema'.'events_transactions_summary_global_by_event_name' has the wrong structure
+2017-08-29T01:11:16.326036Z 0 [ERROR] Native table 'performance_schema'.'users' has the wrong structure
+2017-08-29T01:11:16.326036Z 0 [ERROR] Native table 'performance_schema'.'accounts' has the wrong structure
+2017-08-29T01:11:16.326036Z 0 [ERROR] Native table 'performance_schema'.'hosts' has the wrong structure
+2017-08-29T01:11:16.326036Z 0 [ERROR] Native table 'performance_schema'.'socket_instances' has the wrong structure
+2017-08-29T01:11:16.326036Z 0 [ERROR] Native table 'performance_schema'.'socket_summary_by_instance' has the wrong structure
+2017-08-29T01:11:16.326036Z 0 [ERROR] Native table 'performance_schema'.'socket_summary_by_event_name' has the wrong structure
+2017-08-29T01:11:16.341636Z 0 [ERROR] Native table 'performance_schema'.'session_connect_attrs' has the wrong structure
+2017-08-29T01:11:16.341636Z 0 [ERROR] Native table 'performance_schema'.'session_account_connect_attrs' has the wrong structure
+2017-08-29T01:11:16.341636Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_global_by_event_name' has the wrong structure
+2017-08-29T01:11:16.341636Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_account_by_event_name' has the wrong structure
+2017-08-29T01:11:16.341636Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_host_by_event_name' has the wrong structure
+2017-08-29T01:11:16.341636Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_thread_by_event_name' has the wrong structure
+2017-08-29T01:11:16.357236Z 0 [ERROR] Native table 'performance_schema'.'memory_summary_by_user_by_event_name' has the wrong structure
+2017-08-29T01:11:16.357236Z 0 [ERROR] Native table 'performance_schema'.'table_handles' has the wrong structure
+2017-08-29T01:11:16.357236Z 0 [ERROR] Native table 'performance_schema'.'metadata_locks' has the wrong structure
+2017-08-29T01:11:16.357236Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_configuration' has the wrong structure
+2017-08-29T01:11:16.357236Z 0 [ERROR] Native table 'performance_schema'.'replication_group_members' has the wrong structure
+2017-08-29T01:11:16.357236Z 0 [ERROR] Native table 'performance_schema'.'replication_connection_status' has the wrong structure
+2017-08-29T01:11:16.372836Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_configuration' has the wrong structure
+2017-08-29T01:11:16.372836Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status' has the wrong structure
+2017-08-29T01:11:16.372836Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_coordinator' has the wrong structure
+2017-08-29T01:11:16.372836Z 0 [ERROR] Native table 'performance_schema'.'replication_applier_status_by_worker' has the wrong structure
+2017-08-29T01:11:16.372836Z 0 [ERROR] Native table 'performance_schema'.'replication_group_member_stats' has the wrong structure
+2017-08-29T01:11:16.372836Z 0 [ERROR] Native table 'performance_schema'.'prepared_statements_instances' has the wrong structure
+2017-08-29T01:11:16.388436Z 0 [ERROR] Native table 'performance_schema'.'user_variables_by_thread' has the wrong structure
+2017-08-29T01:11:16.388436Z 0 [ERROR] Native table 'performance_schema'.'status_by_account' has the wrong structure
+2017-08-29T01:11:16.388436Z 0 [ERROR] Native table 'performance_schema'.'status_by_host' has the wrong structure
+2017-08-29T01:11:16.388436Z 0 [ERROR] Native table 'performance_schema'.'status_by_thread' has the wrong structure
+2017-08-29T01:11:16.388436Z 0 [ERROR] Native table 'performance_schema'.'status_by_user' has the wrong structure
+2017-08-29T01:11:16.404036Z 0 [ERROR] Native table 'performance_schema'.'global_status' has the wrong structure
+2017-08-29T01:11:16.419636Z 0 [ERROR] Native table 'performance_schema'.'session_status' has the wrong structure
+2017-08-29T01:11:16.419636Z 0 [ERROR] Native table 'performance_schema'.'variables_by_thread' has the wrong structure
+2017-08-29T01:11:16.419636Z 0 [ERROR] Native table 'performance_schema'.'global_variables' has the wrong structure
+2017-08-29T01:11:16.419636Z 0 [ERROR] Native table 'performance_schema'.'session_variables' has the wrong structure
+2017-08-29T01:11:16.419636Z 0 [Note] MySQL: ready for connections.
+Version: '5.7.19'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-08-29T01:11:16.419636Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2017-08-29T01:11:16.435236Z 0 [Note] Beginning of list of non-natively partitioned tables
+2017-08-29T01:11:16.638037Z 0 [Note] End of list of non-natively partitioned tables
+2017-08-29T02:47:37.474168Z 3 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2017-08-29T02:47:37.505170Z 3 [ERROR] InnoDB: Fetch of persistent statistics requested for table `php`.`goods` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-08-29T02:48:33.770530Z 7 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2017-08-29T02:48:33.772530Z 7 [ERROR] InnoDB: Fetch of persistent statistics requested for table `php`.`user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-08-29T03:29:33.868438Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9069ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-29T07:34:45.578618Z 258 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2017-08-29T07:34:45.581618Z 258 [ERROR] InnoDB: Fetch of persistent statistics requested for table `php`.`task` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-08-29T07:47:08.943136Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2017-08-29T07:47:08.947136Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `php`.`task` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2017-08-29T07:57:01.739042Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10870ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-08-29T07:59:20.459976Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2017-08-29T07:59:20.463976Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `php`.`task` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2017-08-29T08:00:51.834202Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2017-08-29T08:00:51.838202Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `php`.`task` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2017-08-29T08:15:04.178954Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2017-08-29T08:15:04.182954Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `php`.`task` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2017-08-29T08:18:09.668563Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2017-08-29T08:18:09.671563Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `php`.`task` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2017-08-29T08:18:21.460237Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2017-08-29T08:18:21.462238Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `php`.`task` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2017-08-29T08:18:48.083760Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2017-08-29T08:18:48.086760Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `php`.`task` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
